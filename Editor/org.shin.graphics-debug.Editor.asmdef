@@ -1,8 +1,6 @@
 {
     "name": "org.shin.graphics-debug.Editor",
-    "references": [
-        "Unity.[SubGroup].[YourPackageName]"
-    ],
+    "references": [],
     "includePlatforms": [
         "Editor"
     ],

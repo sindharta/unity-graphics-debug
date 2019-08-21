@@ -1,8 +1,6 @@
 {
     "name": "org.shin.graphics-debug.EditorTests",
     "references": [
-        "Unity.[SubGroup].[YourPackageName].Editor",
-        "Unity.[SubGroup].[YourPackageName]",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
     ],

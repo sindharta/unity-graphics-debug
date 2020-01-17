@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.shin.graphics-debug": "file:../..",
-    "com.shin.shin-framework": "https://github.com/sindharta/unity_shin_framework.git",
+    "com.shin.shin-framework": "https://github.com/sindharta/unity-shin-framework.git",
     "com.unity.ext.nunit": "1.0.0",
     "com.unity.ide.vscode": "1.1.3",
     "com.unity.package-manager-ui": "2.2.0",

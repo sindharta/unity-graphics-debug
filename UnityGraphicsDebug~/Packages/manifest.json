@@ -45,5 +45,8 @@
       "hash": "aa1ae0512ffdf0e3fd74df1410daa0611052262e",
       "revision": "HEAD"
     }
-  }
+  },
+    "testables": [
+        "com.shin.graphics-debug"
+    ]  
 }

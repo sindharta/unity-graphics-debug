@@ -1,7 +1,9 @@
 {
-    "name": "org.shin.graphics-debug.Runtime",
+    "name": "com.shin.graphics-debug.Editor",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

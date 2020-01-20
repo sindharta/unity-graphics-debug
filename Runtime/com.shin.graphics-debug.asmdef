@@ -1,9 +1,9 @@
 {
-    "name": "org.shin.graphics-debug.Editor",
-    "references": [],
-    "includePlatforms": [
-        "Editor"
+    "name": "com.shin.graphics-debug",
+    "references": [
+        "GUID:c0036e06d3173e64db70dc0b98b902b5"
     ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

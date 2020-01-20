@@ -40,13 +40,13 @@
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
   },
+  "testables": [
+    "com.shin.graphics-debug"
+  ],
   "lock": {
     "com.shin.shin-framework": {
-      "hash": "aa1ae0512ffdf0e3fd74df1410daa0611052262e",
+      "hash": "fac29607f739781204c3d754fcabee1fcc63e6f1",
       "revision": "HEAD"
     }
-  },
-    "testables": [
-        "com.shin.graphics-debug"
-    ]  
+  }
 }

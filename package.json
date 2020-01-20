@@ -1,14 +1,10 @@
 {
 	"name": "com.shin.graphics-debug",
-	"displayName":"Shin Graphics Debug",
+	"displayName": "Shin Graphics Debug",
 	"version": "0.1.0-preview",
 	"unity": "2019.2",
 	"description": "Tools/Scripts to debug graphics",
 	"dependencies": {
+        "com.shin.shin-framework": "0.0.1-preview"
 	}
-    
 }
-
-
-
-

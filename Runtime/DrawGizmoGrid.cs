@@ -3,7 +3,8 @@ using System.Collections;
 using Shin.Framework;
 
 namespace Shin.GraphicsDebug {
- 
+
+[ExecuteInEditMode]
 public class DrawGizmoGrid : GameBehaviour {
 	// rename + centre the gameobject upon first time dragging the script into the editor. 
 
@@ -12,7 +13,7 @@ public class DrawGizmoGrid : GameBehaviour {
 		if (name == "GameObject")
 			name = "~~ GIZMO GRID ~~"; 
  
-        transform.position = Vector3.zero; 
+        m_transform.position = Vector3.zero; 
 	}
 #endif
 
@@ -20,7 +21,7 @@ public class DrawGizmoGrid : GameBehaviour {
 
 	void OnDrawGizmos () {
 		// orient to the gameobject, so you can rotate the grid independently if desired
-		Gizmos.matrix = transform.localToWorldMatrix;
+		Gizmos.matrix = m_transform.localToWorldMatrix;
  
 		// set colours
 		Color dimColor = new Color(m_gizmoLineColor.r, m_gizmoLineColor.g, m_gizmoLineColor.b, 0.25f* m_gizmoLineColor.a); 

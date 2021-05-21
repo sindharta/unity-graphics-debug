@@ -6,13 +6,6 @@
       "source": "local",
       "dependencies": {}
     },
-    "com.shin.shin-framework": {
-      "version": "https://github.com/sindharta/unity-shin-framework.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "fac29607f739781204c3d754fcabee1fcc63e6f1"
-    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 0,

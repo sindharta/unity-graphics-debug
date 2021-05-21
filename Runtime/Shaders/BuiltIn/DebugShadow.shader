@@ -1,4 +1,4 @@
-﻿Shader "Shin/GraphicsDebug/Shadow" {
+﻿Shader "Shin/GraphicsDebug/BuiltIn/Shadow" {
 	Properties 
 	{
 	}

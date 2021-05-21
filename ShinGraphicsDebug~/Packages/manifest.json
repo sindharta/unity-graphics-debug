@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.shin.graphics-debug": "file:../..",
+    "org.shin.graphics-debug": "file:../..",
     "org.shin.core": "https://github.com/sindharta/unity-shin-core.git",
     "com.unity.ext.nunit": "1.0.6",
     "com.unity.ide.rider": "3.0.5",
@@ -42,6 +42,6 @@
     "com.unity.modules.xr": "1.0.0"
   },
   "testables": [
-    "com.shin.graphics-debug"
+    "org.shin.graphics-debug"
   ]
 }

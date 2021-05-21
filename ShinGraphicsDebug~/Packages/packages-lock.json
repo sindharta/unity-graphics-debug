@@ -4,9 +4,7 @@
       "version": "file:../..",
       "depth": 0,
       "source": "local",
-      "dependencies": {
-        "com.shin.shin-framework": "0.0.1-preview"
-      }
+      "dependencies": {}
     },
     "com.shin.shin-framework": {
       "version": "https://github.com/sindharta/unity-shin-framework.git",

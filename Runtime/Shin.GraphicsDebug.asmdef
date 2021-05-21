@@ -1,5 +1,5 @@
 {
-    "name": "com.shin.graphics-debug",
+    "name": "Shin.GraphicsDebug",
     "rootNamespace": "",
     "references": [
         "GUID:28a7d72c466a8a24bbedaea46306d892"

@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
-using Shin.Framework;
+using Shin.Core;
 
 namespace Shin.GraphicsDebug {
 
 [ExecuteInEditMode]
-public class DrawGizmoGrid : GameBehaviour {
+public class DrawGizmoGrid : CachedBehaviour {
     // rename + centre the gameobject upon first time dragging the script into the editor. 
 
 #if UNITY_EDITOR
@@ -12,15 +12,18 @@ public class DrawGizmoGrid : GameBehaviour {
         if (name == "GameObject")
             name = "~~ GIZMO GRID ~~"; 
  
-        m_transform.position = Vector3.zero; 
+        GetTransform().position = Vector3.zero; 
     }
 #endif
 
 //----------------------------------------------------------------------------------------------------------------------
 
     void OnDrawGizmos () {
+
+        Transform t = GetTransform();
+        
         // orient to the gameobject, so you can rotate the grid independently if desired
-        Gizmos.matrix = m_transform.localToWorldMatrix;
+        Gizmos.matrix = t.localToWorldMatrix;
  
         // set colours
         Color dimColor = new Color(m_gizmoLineColor.r, m_gizmoLineColor.g, m_gizmoLineColor.b, 0.25f* m_gizmoLineColor.a); 

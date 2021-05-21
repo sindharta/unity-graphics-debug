@@ -4,7 +4,7 @@
 	"version": "0.1.0-preview",
 	"unity": "2019.2",
 	"description": "Tools/Scripts to debug graphics",
-	"dependencies": {
-        "com.shin.shin-framework": "0.0.1-preview"
-	}
+    "dependencies": {
+        "org.shin.core": "0.0.1-preview"
+    }
 }

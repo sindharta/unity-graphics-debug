@@ -1,13 +1,5 @@
 {
   "dependencies": {
-    "com.shin.graphics-debug": {
-      "version": "file:../..",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "org.shin.core": "0.0.1-preview"
-      }
-    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 0,
@@ -73,6 +65,14 @@
       "source": "git",
       "dependencies": {},
       "hash": "c9f6ae147e1cc9bf57ab21b5f334d8fca6a06fa1"
+    },
+    "org.shin.graphics-debug": {
+      "version": "file:../..",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "org.shin.core": "0.0.1-preview"
+      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
